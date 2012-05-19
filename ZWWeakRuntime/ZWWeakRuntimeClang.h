@@ -12,11 +12,11 @@
  * Unfortunately there is no other way to get using __weak support otherwise.
  */
 
-#ifndef ZWWeakRuntimeClang
-#define ZWWeakRuntimeClang 0
+#ifndef ZW_WEAK_RUNTIME_CLANG
+#define ZW_WEAK_RUNTIME_CLANG 0
 #endif 
 
-#if ZWWeakRuntimeClang
+#if ZW_WEAK_RUNTIME_CLANG
 
 id objc_retain(id object); /* ARC implements */
 void objc_release(id object); /* ARC implements */

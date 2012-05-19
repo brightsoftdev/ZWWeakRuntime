@@ -1,7 +1,7 @@
 #import "ZWWeakRuntimeClang.h"
 #import "ZWWeakRuntime.h"
 
-#if ZWWeakRuntimeClang
+#if ZW_WEAK_RUNTIME_CLANG
 
 #if __has_feature(objc_arc)
 #error ZWWeakRuntimeClang.m must be compiled with the -fno-objc-arc flag

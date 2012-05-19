@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2F8B291567B6DF004FC05C /* ZWWeakRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2F8B231567B6DF004FC05C /* ZWWeakRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2F8B2A1567B6DF004FC05C /* ZWWeakRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2F8B231567B6DF004FC05C /* ZWWeakRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2F8B2B1567B6DF004FC05C /* ZWWeakRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8B241567B6DF004FC05C /* ZWWeakRuntime.m */; };
+		EE2F8B2C1567B6DF004FC05C /* ZWWeakRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8B241567B6DF004FC05C /* ZWWeakRuntime.m */; };
+		EE2F8B2D1567B6DF004FC05C /* ZWWeakRuntimeClang.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2F8B251567B6DF004FC05C /* ZWWeakRuntimeClang.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2F8B2E1567B6DF004FC05C /* ZWWeakRuntimeClang.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2F8B251567B6DF004FC05C /* ZWWeakRuntimeClang.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2F8B2F1567B6DF004FC05C /* ZWWeakRuntimeClang.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8B261567B6DF004FC05C /* ZWWeakRuntimeClang.m */; };
+		EE2F8B301567B6DF004FC05C /* ZWWeakRuntimeClang.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8B261567B6DF004FC05C /* ZWWeakRuntimeClang.m */; };
+		EE2F8B311567B6DF004FC05C /* ZWWeakRuntimeProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2F8B271567B6DF004FC05C /* ZWWeakRuntimeProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2F8B321567B6DF004FC05C /* ZWWeakRuntimeProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2F8B271567B6DF004FC05C /* ZWWeakRuntimeProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE2F8B331567B6DF004FC05C /* ZWWeakRuntimeProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8B281567B6DF004FC05C /* ZWWeakRuntimeProxy.m */; };
+		EE2F8B341567B6DF004FC05C /* ZWWeakRuntimeProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2F8B281567B6DF004FC05C /* ZWWeakRuntimeProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE2F8B231567B6DF004FC05C /* ZWWeakRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWWeakRuntime.h; sourceTree = "<group>"; };
+		EE2F8B241567B6DF004FC05C /* ZWWeakRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWWeakRuntime.m; sourceTree = "<group>"; };
+		EE2F8B251567B6DF004FC05C /* ZWWeakRuntimeClang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWWeakRuntimeClang.h; sourceTree = "<group>"; };
+		EE2F8B261567B6DF004FC05C /* ZWWeakRuntimeClang.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWWeakRuntimeClang.m; sourceTree = "<group>"; };
+		EE2F8B271567B6DF004FC05C /* ZWWeakRuntimeProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWWeakRuntimeProxy.h; sourceTree = "<group>"; };
+		EE2F8B281567B6DF004FC05C /* ZWWeakRuntimeProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWWeakRuntimeProxy.m; sourceTree = "<group>"; };
+		EE69E312145620C50042E1B3 /* libZWWeakRuntime-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libZWWeakRuntime-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8F375D1500674C00274C48 /* libZWWeakRuntime-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libZWWeakRuntime-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE69E30F145620C50042E1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F375A1500674C00274C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0D265613D6461500947556 = {
+			isa = PBXGroup;
+			children = (
+				EE9863A514914D18007CD136 /* ZWWeakRuntime */,
+				EE69E312145620C50042E1B3 /* libZWWeakRuntime-iOS.a */,
+				EE8F375D1500674C00274C48 /* libZWWeakRuntime-OSX.a */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9863A514914D18007CD136 /* ZWWeakRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F8B231567B6DF004FC05C /* ZWWeakRuntime.h */,
+				EE2F8B241567B6DF004FC05C /* ZWWeakRuntime.m */,
+				EE2F8B251567B6DF004FC05C /* ZWWeakRuntimeClang.h */,
+				EE2F8B261567B6DF004FC05C /* ZWWeakRuntimeClang.m */,
+				EE2F8B271567B6DF004FC05C /* ZWWeakRuntimeProxy.h */,
+				EE2F8B281567B6DF004FC05C /* ZWWeakRuntimeProxy.m */,
+			);
+			path = ZWWeakRuntime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE69E310145620C50042E1B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8B291567B6DF004FC05C /* ZWWeakRuntime.h in Headers */,
+				EE2F8B2D1567B6DF004FC05C /* ZWWeakRuntimeClang.h in Headers */,
+				EE2F8B311567B6DF004FC05C /* ZWWeakRuntimeProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F375B1500674C00274C48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8B2A1567B6DF004FC05C /* ZWWeakRuntime.h in Headers */,
+				EE2F8B2E1567B6DF004FC05C /* ZWWeakRuntimeClang.h in Headers */,
+				EE2F8B321567B6DF004FC05C /* ZWWeakRuntimeProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EE69E311145620C50042E1B3 /* ZWWeakRuntime-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE69E31B145620C50042E1B3 /* Build configuration list for PBXNativeTarget "ZWWeakRuntime-iOS" */;
+			buildPhases = (
+				EE69E30E145620C50042E1B3 /* Sources */,
+				EE69E30F145620C50042E1B3 /* Frameworks */,
+				EE69E310145620C50042E1B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZWWeakRuntime-iOS";
+			productName = ZWWeakRuntime_ios;
+			productReference = EE69E312145620C50042E1B3 /* libZWWeakRuntime-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE8F375C1500674C00274C48 /* ZWWeakRuntime-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8F37651500674D00274C48 /* Build configuration list for PBXNativeTarget "ZWWeakRuntime-OSX" */;
+			buildPhases = (
+				EE8F37591500674C00274C48 /* Sources */,
+				EE8F375A1500674C00274C48 /* Frameworks */,
+				EE8F375B1500674C00274C48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZWWeakRuntime-OSX";
+			productName = "ZWWeakRuntime-OSX";
+			productReference = EE8F375D1500674C00274C48 /* libZWWeakRuntime-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0D265813D6461500947556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = EE0D265B13D6461500947556 /* Build configuration list for PBXProject "ZWWeakRuntime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE0D265613D6461500947556;
+			productRefGroup = EE0D265613D6461500947556;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE69E311145620C50042E1B3 /* ZWWeakRuntime-iOS */,
+				EE8F375C1500674C00274C48 /* ZWWeakRuntime-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE69E30E145620C50042E1B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8B2B1567B6DF004FC05C /* ZWWeakRuntime.m in Sources */,
+				EE2F8B2F1567B6DF004FC05C /* ZWWeakRuntimeClang.m in Sources */,
+				EE2F8B331567B6DF004FC05C /* ZWWeakRuntimeProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8F37591500674C00274C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2F8B2C1567B6DF004FC05C /* ZWWeakRuntime.m in Sources */,
+				EE2F8B301567B6DF004FC05C /* ZWWeakRuntimeClang.m in Sources */,
+				EE2F8B341567B6DF004FC05C /* ZWWeakRuntimeProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE0D266C13D6461500947556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=0",
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Resources/ZWWeakRuntime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Foundation,
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = ./include/ZWWeakRuntime/;
+				PUBLIC_HEADERS_FOLDER_PATH = ./include/ZWWeakRuntime/;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE0D266D13D6461500947556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=1",
+					"DEBUG=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Resources/ZWWeakRuntime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Foundation,
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = ./include/ZWWeakRuntime/;
+				PUBLIC_HEADERS_FOLDER_PATH = ./include/ZWWeakRuntime/;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE69E31C145620C50042E1B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE69E31D145620C50042E1B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EE8F37661500674D00274C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				PRODUCT_NAME = "ZWWeakRuntime-OSX";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE8F37671500674D00274C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				PRODUCT_NAME = "ZWWeakRuntime-OSX";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE0D265B13D6461500947556 /* Build configuration list for PBXProject "ZWWeakRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0D266C13D6461500947556 /* Debug */,
+				EE0D266D13D6461500947556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE69E31B145620C50042E1B3 /* Build configuration list for PBXNativeTarget "ZWWeakRuntime-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE69E31C145620C50042E1B3 /* Debug */,
+				EE69E31D145620C50042E1B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8F37651500674D00274C48 /* Build configuration list for PBXNativeTarget "ZWWeakRuntime-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8F37661500674D00274C48 /* Debug */,
+				EE8F37671500674D00274C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0D265813D6461500947556 /* Project object */;
+}

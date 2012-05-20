@@ -30,6 +30,7 @@
 		EE2F8B281567B6DF004FC05C /* ZWWeakRuntimeProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWWeakRuntimeProxy.m; sourceTree = "<group>"; };
 		EE69E312145620C50042E1B3 /* libZWWeakRuntime-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libZWWeakRuntime-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8F375D1500674C00274C48 /* libZWWeakRuntime-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libZWWeakRuntime-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9CC77C1568E26B00967504 /* ZWWeakRuntime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZWWeakRuntime-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		EE9863A514914D18007CD136 /* ZWWeakRuntime */ = {
 			isa = PBXGroup;
 			children = (
+				EE9CC77C1568E26B00967504 /* ZWWeakRuntime-Prefix.pch */,
 				EE2F8B231567B6DF004FC05C /* ZWWeakRuntime.h */,
 				EE2F8B241567B6DF004FC05C /* ZWWeakRuntime.m */,
 				EE2F8B251567B6DF004FC05C /* ZWWeakRuntimeClang.h */,
